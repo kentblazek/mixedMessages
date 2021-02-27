@@ -73,6 +73,13 @@ const phraseMaker = {
     randReaction() {
         return this.reaction[Math.floor(Math.random() * this.reaction.length)]
     },
+
+    // Combine random strings
+    randPhrase() {
+        return (this.randWho() + " " + this.randWhatAction() + " " + this.randWhatAdj()
+        + " " + this.randWhatObject() + " " + this.randWhere() + "; " + this.randWhoReact() + " "
+        + this.randReaction() + ".");
+    }
 }
 
-console.log(phraseMaker.randWho());
+console.log(phraseMaker.randPhrase());
