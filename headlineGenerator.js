@@ -1,5 +1,7 @@
 // Headline generator master object
 const phraseMaker = {
+    
+    // Content arrays
     who: ["Princess Anne", "High school janitor", "Art teacher", "Delivery boy", "Elon Musk",
     "RuPaul", "Lady Gaga", "Lunch lady", "Sandwich artist", "Shop clerk",
     "Boris Johnson", "TV anchor", "Dentist", "Pediatrician", "Homeless man",
@@ -43,4 +45,34 @@ const phraseMaker = {
     "want prison time", "still looking for Waldo", "sneeze", "dance the night away", "frantic"],
     
     
+    // Random string selectors from arrays
+    randWho() {
+        return this.who[Math.floor(Math.random() * this.who.length)]
+    },
+
+    randWhatAction() {
+        return this.whatAction[Math.floor(Math.random() * this.whatAction.length)]
+    },
+
+    randWhatAdj() {
+        return this.whatAdj[Math.floor(Math.random() * this.whatAdj.length)]
+    },
+
+    randWhatObject() {
+        return this.whatObject[Math.floor(Math.random() * this.whatObject.length)]
+    },
+
+    randWhere() {
+        return this.where[Math.floor(Math.random() * this.where.length)]
+    },
+
+    randWhoReact() {
+        return this.whoReact[Math.floor(Math.random() * this.whoReact.length)]
+    },
+    
+    randReaction() {
+        return this.reaction[Math.floor(Math.random() * this.reaction.length)]
+    },
 }
+
+console.log(phraseMaker.randWho());
