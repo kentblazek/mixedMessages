@@ -12,14 +12,35 @@ const phraseMaker = {
     "dances with", "underestimates", "makes a fool of", "exorcises", "laughs at",
     "trips over", "sues", "hires", "apologizes to", "breastfeeds"],
     
-    whatAdj: ["delicious", "ruddy", "nasty", "stale", "friendly",
+    whatAdj: ["delicious", "sexy", "nasty", "stale", "friendly",
     "old", "cranky", "gorgeous", "shiny", "religious",
     "intelligent", "slow", "fluffy", "sadistic", "helpful",
     "whimsical", "merry", "drunk", "indignant", "capricous",
     "bearded", "obese", "elegant", "big-nosed", "feminine"],
+
+    whatObject: ["cat", "chimpanzee", "trash can", "bagel", "pigeon",
+    "organ", "hors d'oeuvres", "shoe", "child", "baby",
+    "ghost", "musician", "eggplant", "mall Santa", "fast food worker",
+    "degenerate", "hypochondriac", "cult leader", "banana", "invalid",
+    "waiter", "cactus", "trapeze artist", "sack of potatoes", "pervert"],
     
-    whatObject: [],
-    where: [],
-    whoReact: [],
-    reaction: [], 
+    where: ["in closet", "at church", "in Fiji", "in parking lot", "at home",
+    "on subway", "in public", "on stage", "at Burger King", "in stables",
+    "at City Hall", "in clown car", "at banquet", "in bed", "at fruit stand",
+    "in grocery store", "at haberdashery", "on bus", "in forest", "behind mother's back",
+    "at amusement park", "on cruiseship", "at mall", "in congress", "at Thanksgiving"],
+
+    whoReact: ["townspeople", "church-goers", "school board", "board of directors", "Candadians",
+    "cat-lovers", "unions", "bigots", "nurses", "zoo keepers",
+    "parents", "fans", "victims", "party-goers", "protesters",
+    "clowns", "nursing homes", "carolers", "tourists", "congressmen",
+    "fish", "rioters", "patients", "farmers", "critics"],
+
+    reaction: ["rejoice", "grimace", "confused", "elated", "giddy",
+    "frightened", "exhausted", "turn a blind eye", "shrug", "embarassed",
+    "dizzy", "have heard it before", "vindicated", "disgusted", "in tears",
+    "sedated", "look for answers", "tweet", "defecate", "want more",
+    "want prison time", "still looking for Waldo", "sneeze", "dance the night away", "frantic"],
+    
+    
 }
