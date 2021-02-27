@@ -21,7 +21,7 @@ const phraseMaker = {
     "bearded", "obese", "elegant", "big-nosed", "feminine"],
 
     whatObject: ["cat", "chimpanzee", "trash can", "bagel", "pigeon",
-    "organ", "hors d'oeuvres", "shoe", "child", "baby",
+    "chimney sweep", "mannequin", "shoe", "child", "baby",
     "ghost", "musician", "eggplant", "mall Santa", "fast food worker",
     "degenerate", "hypochondriac", "cult leader", "banana", "invalid",
     "waiter", "cactus", "trapeze artist", "sack of potatoes", "pervert"],
