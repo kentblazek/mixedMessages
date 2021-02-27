@@ -14,7 +14,7 @@ const phraseMaker = {
     "dances with", "underestimates", "makes a fool of", "exorcises", "laughs at",
     "trips over", "sues", "hires", "apologizes to", "breastfeeds"],
     
-    whatAdj: ["delicious", "sexy", "nasty", "stale", "friendly",
+    whatAdj: ["delicious", "sexy", "nasty", "ferral", "friendly",
     "old", "cranky", "gorgeous", "shiny", "religious",
     "intelligent", "slow", "fluffy", "sadistic", "helpful",
     "whimsical", "merry", "drunk", "indignant", "capricous",
@@ -35,7 +35,7 @@ const phraseMaker = {
     whoReact: ["townspeople", "church-goers", "school board", "board of directors", "Candadians",
     "cat-lovers", "unions", "bigots", "nurses", "zoo keepers",
     "parents", "fans", "victims", "party-goers", "protesters",
-    "clowns", "nursing homes", "carolers", "tourists", "congressmen",
+    "clowns", "nursing home staff", "carolers", "tourists", "congressmen",
     "fish", "rioters", "patients", "farmers", "critics"],
 
     reaction: ["rejoice", "grimace", "confused", "elated", "giddy",
