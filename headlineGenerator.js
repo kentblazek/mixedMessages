@@ -14,7 +14,7 @@ const phraseMaker = {
     "dances with", "underestimates", "makes a fool of", "exorcises", "laughs at",
     "trips over", "sues", "hires", "apologizes to", "breastfeeds"],
     
-    whatAdj: ["delicious", "sexy", "nasty", "ferral", "friendly",
+    whatAdj: ["delicious", "sexy", "nasty", "feral", "friendly",
     "old", "cranky", "gorgeous", "shiny", "religious",
     "intelligent", "slow", "fluffy", "sadistic", "helpful",
     "whimsical", "merry", "drunk", "indignant", "capricous",
